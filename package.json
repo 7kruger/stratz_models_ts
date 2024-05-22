@@ -1,0 +1,8 @@
+{
+  "name": "stratz_models_ts",
+  "version": "1.0.0",
+  "description": "stratz models for typescript",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT"
+}
