@@ -3656,6 +3656,7 @@ export type MatchGroupByAssistsType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   matchCount?: Maybe<Scalars['Int']['output']>;
@@ -3671,6 +3672,7 @@ export type MatchGroupByAwardType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   award?: Maybe<MatchPlayerAward>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3687,6 +3689,7 @@ export type MatchGroupByClusterType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   cluster?: Maybe<Scalars['Long']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3703,6 +3706,7 @@ export type MatchGroupByDateDayHeroType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   dateDay?: Maybe<Scalars['Long']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   hero?: Maybe<HeroType>;
@@ -3726,6 +3730,7 @@ export type MatchGroupByDateDayType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   dateDay?: Maybe<Scalars['Long']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3742,6 +3747,7 @@ export type MatchGroupByDeathsType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   deathCount?: Maybe<Scalars['Long']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3758,6 +3764,7 @@ export type MatchGroupByDurationMinutesType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   durationMinutes?: Maybe<Scalars['Long']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3774,6 +3781,7 @@ export type MatchGroupByFactionType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   isRadiant?: Maybe<Scalars['Boolean']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3790,6 +3798,7 @@ export type MatchGroupByGameModeType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   gameMode?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3806,6 +3815,7 @@ export type MatchGroupByGameVersionType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   gameVersion?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3822,6 +3832,7 @@ export type MatchGroupByGoldPerMinuteType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   goldPerMinute?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3838,6 +3849,7 @@ export type MatchGroupByHeroPerformanceType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   heroId?: Maybe<Scalars['Short']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3855,6 +3867,7 @@ export type MatchGroupByHeroType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   hero?: Maybe<HeroType>;
   heroId?: Maybe<Scalars['Long']['output']>;
@@ -3877,6 +3890,7 @@ export type MatchGroupByHourType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   hour?: Maybe<Scalars['Short']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3893,6 +3907,7 @@ export type MatchGroupByIsIntentionalFeedingType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   isIntentionalFeeding?: Maybe<Scalars['Boolean']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3909,6 +3924,7 @@ export type MatchGroupByIsLeagueType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   isLeague?: Maybe<Scalars['Boolean']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3925,6 +3941,7 @@ export type MatchGroupByIsLeaverType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   isLeaver?: Maybe<Scalars['Boolean']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3941,6 +3958,7 @@ export type MatchGroupByIsPartyType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   isParty?: Maybe<Scalars['Boolean']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3957,6 +3975,7 @@ export type MatchGroupByIsRandomType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   isRandom?: Maybe<Scalars['Boolean']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3973,6 +3992,7 @@ export type MatchGroupByIsSeriesType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   isSeries?: Maybe<Scalars['Boolean']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -3989,6 +4009,7 @@ export type MatchGroupByIsStatsType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   isStats?: Maybe<Scalars['Boolean']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -4005,6 +4026,7 @@ export type MatchGroupByIsVictoryType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   isVictory?: Maybe<Scalars['Boolean']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -4021,6 +4043,7 @@ export type MatchGroupByKillsType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   killCount?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -4037,6 +4060,7 @@ export type MatchGroupByLaneType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lane?: Maybe<MatchLaneType>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
@@ -4053,6 +4077,7 @@ export type MatchGroupByLeagueIdType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   league?: Maybe<LeagueType>;
@@ -4070,6 +4095,7 @@ export type MatchGroupByLevelType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   level?: Maybe<Scalars['Long']['output']>;
@@ -4086,6 +4112,7 @@ export type MatchGroupByLobbyTypeType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lobbyType?: Maybe<Scalars['Long']['output']>;
@@ -4102,6 +4129,7 @@ export type MatchGroupByPositionType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   matchCount?: Maybe<Scalars['Int']['output']>;
@@ -4118,6 +4146,7 @@ export type MatchGroupByRegionType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   matchCount?: Maybe<Scalars['Int']['output']>;
@@ -4134,6 +4163,7 @@ export type MatchGroupByRoamLaneType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   matchCount?: Maybe<Scalars['Int']['output']>;
@@ -4150,6 +4180,7 @@ export type MatchGroupByRoleType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   matchCount?: Maybe<Scalars['Int']['output']>;
@@ -4166,6 +4197,7 @@ export type MatchGroupBySteamAccountIdAgainstTeamType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   matchCount?: Maybe<Scalars['Int']['output']>;
@@ -4183,6 +4215,7 @@ export type MatchGroupBySteamAccountIdHeroIdAgainstTeamType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   hero?: Maybe<HeroType>;
   heroId?: Maybe<Scalars['Short']['output']>;
@@ -4207,6 +4240,7 @@ export type MatchGroupBySteamAccountIdHeroIdType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   hero?: Maybe<HeroType>;
   heroId?: Maybe<Scalars['Short']['output']>;
@@ -4231,6 +4265,7 @@ export type MatchGroupBySteamAccountIdHeroIdWithTeamType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   hero?: Maybe<HeroType>;
   heroId?: Maybe<Scalars['Short']['output']>;
@@ -4255,6 +4290,7 @@ export type MatchGroupBySteamAccountIdType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   matchCount?: Maybe<Scalars['Int']['output']>;
@@ -4272,6 +4308,7 @@ export type MatchGroupBySteamAccountIdWithTeamType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   matchCount?: Maybe<Scalars['Int']['output']>;
@@ -4289,6 +4326,7 @@ export type MatchGroupByTeamType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   matchCount?: Maybe<Scalars['Int']['output']>;
@@ -4306,6 +4344,7 @@ export type MatchGroupByTotalKillsType = {
   avgImp?: Maybe<Scalars['Int']['output']>;
   avgKDA?: Maybe<Scalars['Float']['output']>;
   avgKills?: Maybe<Scalars['Float']['output']>;
+  avgTowerDamage?: Maybe<Scalars['Float']['output']>;
   firstMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   matchCount?: Maybe<Scalars['Int']['output']>;
@@ -5163,6 +5202,7 @@ export type MatchPlayerType = {
   steamAccountId?: Maybe<Scalars['Long']['output']>;
   streakPrediction?: Maybe<Scalars['Short']['output']>;
   towerDamage?: Maybe<Scalars['Int']['output']>;
+  variant?: Maybe<Scalars['Byte']['output']>;
 };
 
 
@@ -7526,10 +7566,10 @@ export type SteamAccountType = {
   dotaAccountLevel?: Maybe<Scalars['Short']['output']>;
   guild?: Maybe<GuildMemberType>;
   id?: Maybe<Scalars['Long']['output']>;
-  isAnonymous?: Scalars['Boolean']['output'];
+  isAnonymous: Scalars['Boolean']['output'];
   isCaster?: Maybe<Scalars['Boolean']['output']>;
   isDotaPlusSubscriber?: Maybe<Scalars['Boolean']['output']>;
-  isStratzPublic?: Scalars['Boolean']['output'];
+  isStratzPublic: Scalars['Boolean']['output'];
   lastLogOff?: Maybe<Scalars['Long']['output']>;
   lastMatchDateTime?: Maybe<Scalars['Long']['output']>;
   lastMatchRegionId?: Maybe<Scalars['Byte']['output']>;
@@ -11189,6 +11229,7 @@ export type MatchGroupByAssistsTypeResolvers<ContextType = any, ParentType exten
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   matchCount?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
@@ -11204,6 +11245,7 @@ export type MatchGroupByAwardTypeResolvers<ContextType = any, ParentType extends
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   award?: Resolver<Maybe<ResolversTypes['MatchPlayerAward']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11220,6 +11262,7 @@ export type MatchGroupByClusterTypeResolvers<ContextType = any, ParentType exten
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   cluster?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11236,6 +11279,7 @@ export type MatchGroupByDateDayHeroTypeResolvers<ContextType = any, ParentType e
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   dateDay?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   hero?: Resolver<Maybe<ResolversTypes['HeroType']>, ParentType, ContextType, RequireFields<MatchGroupByDateDayHeroTypeHeroArgs, 'gameVersionId'>>;
@@ -11254,6 +11298,7 @@ export type MatchGroupByDateDayTypeResolvers<ContextType = any, ParentType exten
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   dateDay?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11270,6 +11315,7 @@ export type MatchGroupByDeathsTypeResolvers<ContextType = any, ParentType extend
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   deathCount?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11286,6 +11332,7 @@ export type MatchGroupByDurationMinutesTypeResolvers<ContextType = any, ParentTy
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   durationMinutes?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11302,6 +11349,7 @@ export type MatchGroupByFactionTypeResolvers<ContextType = any, ParentType exten
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   isRadiant?: Resolver<Maybe<ResolversTypes['Boolean']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11318,6 +11366,7 @@ export type MatchGroupByGameModeTypeResolvers<ContextType = any, ParentType exte
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   gameMode?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11334,6 +11383,7 @@ export type MatchGroupByGameVersionTypeResolvers<ContextType = any, ParentType e
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   gameVersion?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11350,6 +11400,7 @@ export type MatchGroupByGoldPerMinuteTypeResolvers<ContextType = any, ParentType
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   goldPerMinute?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11366,6 +11417,7 @@ export type MatchGroupByHeroPerformanceTypeResolvers<ContextType = any, ParentTy
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   heroId?: Resolver<Maybe<ResolversTypes['Short']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11383,6 +11435,7 @@ export type MatchGroupByHeroTypeResolvers<ContextType = any, ParentType extends 
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   hero?: Resolver<Maybe<ResolversTypes['HeroType']>, ParentType, ContextType, RequireFields<MatchGroupByHeroTypeHeroArgs, 'gameVersionId'>>;
   heroId?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11400,6 +11453,7 @@ export type MatchGroupByHourTypeResolvers<ContextType = any, ParentType extends 
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   hour?: Resolver<Maybe<ResolversTypes['Short']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11416,6 +11470,7 @@ export type MatchGroupByIsIntentionalFeedingTypeResolvers<ContextType = any, Par
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   isIntentionalFeeding?: Resolver<Maybe<ResolversTypes['Boolean']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11432,6 +11487,7 @@ export type MatchGroupByIsLeagueTypeResolvers<ContextType = any, ParentType exte
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   isLeague?: Resolver<Maybe<ResolversTypes['Boolean']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11448,6 +11504,7 @@ export type MatchGroupByIsLeaverTypeResolvers<ContextType = any, ParentType exte
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   isLeaver?: Resolver<Maybe<ResolversTypes['Boolean']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11464,6 +11521,7 @@ export type MatchGroupByIsPartyTypeResolvers<ContextType = any, ParentType exten
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   isParty?: Resolver<Maybe<ResolversTypes['Boolean']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11480,6 +11538,7 @@ export type MatchGroupByIsRandomTypeResolvers<ContextType = any, ParentType exte
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   isRandom?: Resolver<Maybe<ResolversTypes['Boolean']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11496,6 +11555,7 @@ export type MatchGroupByIsSeriesTypeResolvers<ContextType = any, ParentType exte
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   isSeries?: Resolver<Maybe<ResolversTypes['Boolean']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11512,6 +11572,7 @@ export type MatchGroupByIsStatsTypeResolvers<ContextType = any, ParentType exten
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   isStats?: Resolver<Maybe<ResolversTypes['Boolean']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11528,6 +11589,7 @@ export type MatchGroupByIsVictoryTypeResolvers<ContextType = any, ParentType ext
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   isVictory?: Resolver<Maybe<ResolversTypes['Boolean']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11544,6 +11606,7 @@ export type MatchGroupByKillsTypeResolvers<ContextType = any, ParentType extends
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   killCount?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11560,6 +11623,7 @@ export type MatchGroupByLaneTypeResolvers<ContextType = any, ParentType extends 
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lane?: Resolver<Maybe<ResolversTypes['MatchLaneType']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11576,6 +11640,7 @@ export type MatchGroupByLeagueIdTypeResolvers<ContextType = any, ParentType exte
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   league?: Resolver<Maybe<ResolversTypes['LeagueType']>, ParentType, ContextType>;
@@ -11593,6 +11658,7 @@ export type MatchGroupByLevelTypeResolvers<ContextType = any, ParentType extends
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   level?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11609,6 +11675,7 @@ export type MatchGroupByLobbyTypeTypeResolvers<ContextType = any, ParentType ext
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lobbyType?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
@@ -11625,6 +11692,7 @@ export type MatchGroupByPositionTypeResolvers<ContextType = any, ParentType exte
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   matchCount?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
@@ -11641,6 +11709,7 @@ export type MatchGroupByRegionTypeResolvers<ContextType = any, ParentType extend
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   matchCount?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
@@ -11657,6 +11726,7 @@ export type MatchGroupByRoamLaneTypeResolvers<ContextType = any, ParentType exte
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   matchCount?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
@@ -11673,6 +11743,7 @@ export type MatchGroupByRoleTypeResolvers<ContextType = any, ParentType extends 
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   matchCount?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
@@ -11689,6 +11760,7 @@ export type MatchGroupBySteamAccountIdAgainstTeamTypeResolvers<ContextType = any
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   matchCount?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
@@ -11706,6 +11778,7 @@ export type MatchGroupBySteamAccountIdHeroIdAgainstTeamTypeResolvers<ContextType
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   hero?: Resolver<Maybe<ResolversTypes['HeroType']>, ParentType, ContextType, RequireFields<MatchGroupBySteamAccountIdHeroIdAgainstTeamTypeHeroArgs, 'gameVersionId'>>;
   heroId?: Resolver<Maybe<ResolversTypes['Short']>, ParentType, ContextType>;
@@ -11725,6 +11798,7 @@ export type MatchGroupBySteamAccountIdHeroIdTypeResolvers<ContextType = any, Par
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   hero?: Resolver<Maybe<ResolversTypes['HeroType']>, ParentType, ContextType, RequireFields<MatchGroupBySteamAccountIdHeroIdTypeHeroArgs, 'gameVersionId'>>;
   heroId?: Resolver<Maybe<ResolversTypes['Short']>, ParentType, ContextType>;
@@ -11744,6 +11818,7 @@ export type MatchGroupBySteamAccountIdHeroIdWithTeamTypeResolvers<ContextType = 
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   hero?: Resolver<Maybe<ResolversTypes['HeroType']>, ParentType, ContextType, RequireFields<MatchGroupBySteamAccountIdHeroIdWithTeamTypeHeroArgs, 'gameVersionId'>>;
   heroId?: Resolver<Maybe<ResolversTypes['Short']>, ParentType, ContextType>;
@@ -11763,6 +11838,7 @@ export type MatchGroupBySteamAccountIdTypeResolvers<ContextType = any, ParentTyp
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   matchCount?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
@@ -11780,6 +11856,7 @@ export type MatchGroupBySteamAccountIdWithTeamTypeResolvers<ContextType = any, P
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   matchCount?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
@@ -11797,6 +11874,7 @@ export type MatchGroupByTeamTypeResolvers<ContextType = any, ParentType extends 
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   matchCount?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
@@ -11814,6 +11892,7 @@ export type MatchGroupByTotalKillsTypeResolvers<ContextType = any, ParentType ex
   avgImp?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   avgKDA?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   avgKills?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
+  avgTowerDamage?: Resolver<Maybe<ResolversTypes['Float']>, ParentType, ContextType>;
   firstMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   lastMatchDateTime?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   matchCount?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
@@ -12577,6 +12656,7 @@ export type MatchPlayerTypeResolvers<ContextType = any, ParentType extends Resol
   steamAccountId?: Resolver<Maybe<ResolversTypes['Long']>, ParentType, ContextType>;
   streakPrediction?: Resolver<Maybe<ResolversTypes['Short']>, ParentType, ContextType>;
   towerDamage?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
+  variant?: Resolver<Maybe<ResolversTypes['Byte']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
